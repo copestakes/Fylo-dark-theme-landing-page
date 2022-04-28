@@ -226,6 +226,56 @@ footer span {
    
 }
 
+@media only screen and (max-width: 800px) {
+    
+   header {
+       background-image: url("images/bg-curvy-mobile.svg");
+   }
+
+   .header-content {
+       padding: 15px;
+   }
+   
+   .card {
+       margin: 0;
+   }
+
+    .flex-sect, .productive {
+        display: block;
+        text-align: center;
+    }
+
+    .review-cards {
+        display: block;
+    }
+
+    .review-card {
+        margin: 25px;
+    }
+
+    .footer-container {
+        display: block;
+    }
+
+    .footer-logo-col {
+        text-align: center;
+    }
+
+    .footer-logo-col li {
+        list-style-image: none;
+    }
+
+    .site-map {
+        display: block;
+        padding: 15px
+    }
+
+    .footer-center-col {
+        text-align: center;
+        margin-left: 0;
+        padding: 15px;
+    }
+  }
 
 
 
